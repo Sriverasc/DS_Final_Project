@@ -67,6 +67,7 @@ pip install tqdm
 ```
 
 🚀 Cómo ejecutar el proyecto
+
 1️⃣ Iniciar el tracker
 python tracker.py
 
