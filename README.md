@@ -32,6 +32,7 @@ Los peers pueden:
 ---
 
 ## 🏗️ Arquitectura del sistema
+```
        +------------------+
        |     Tracker      |
        |  (Centralizado)  |
@@ -40,10 +41,12 @@ Los peers pueden:
     -----------------------------
     |            |             |
  Peer A       Peer B        Peer C
+```
 
 ---
 
 ## 📂 Estructura del proyecto
+```
 .
 ├── tracker.py # Servidor central (tracker)
 ├── peer.py # Implementación de nodos
@@ -51,8 +54,7 @@ Los peers pueden:
 ├── archivos_nodo_b/ # Archivos del peer B
 ├── archivos_nodo_c/ # Archivos del peer C
 └── peer_X_state.json # Estado persistente de cada peer
-
-
+```
 ---
 
 ## ⚙️ Requisitos
@@ -81,6 +83,7 @@ Cada peer:
 
 Usa un puerto distinto
 Tiene su propio directorio de archivos
+
 📡 Protocolo de comunicación
 
 🔹 Mensajes soportados
